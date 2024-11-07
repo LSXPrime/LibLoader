@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <Title>LibLoader</Title>
+        <Description>LibLoader is a cross-platform native library loader for .NET, simplifying the process of loading and interacting with native libraries (DLLs, SOs, dylibs) in your C# applications.  It supports dependency management, flexible loading options (local files, embedded resources, remote URLs), and provides a clean, fluent API for configuration and function calling.</Description>
+        <Copyright>Copyright (c) 2024 LSXPrime</Copyright>
+        <PackageProjectUrl>https://github.com/LSXPrime/LibLoader</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <RepositoryUrl>https://github.com/LSXPrime/LibLoader</RepositoryUrl>
+        <RepositoryType>Github</RepositoryType>
+        <PackageIcon>libloader-icon.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>native, library, loader, dll, so, dylib, cross-platform, interop, p/invoke</PackageTags>
+        <Version>1.0.0</Version>
+        <PackageReleaseNotes>https://github.com/LSXPrime/LibLoader/releases</PackageReleaseNotes>
+        <Authors>LSXPrime</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="libloader-icon.png">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+        <None Include="..\LICENSE.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+</Project>

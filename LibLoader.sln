@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibLoader", "src/LibLoader.csproj", "{3773AE5A-9A2B-49B2-AC5A-2C183D7806AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92FC8A0C-D902-48C1-84AA-B456D137CC2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{16B9EB0E-5E53-42FC-BBF3-47DF70807C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibLoader.Samples.Basic", "samples/LibLoader.Samples.Basic\LibLoader.Samples.Basic.csproj", "{48A694DA-0D09-4D63-A276-3A244935A6E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3773AE5A-9A2B-49B2-AC5A-2C183D7806AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3773AE5A-9A2B-49B2-AC5A-2C183D7806AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3773AE5A-9A2B-49B2-AC5A-2C183D7806AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3773AE5A-9A2B-49B2-AC5A-2C183D7806AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A694DA-0D09-4D63-A276-3A244935A6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A694DA-0D09-4D63-A276-3A244935A6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A694DA-0D09-4D63-A276-3A244935A6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A694DA-0D09-4D63-A276-3A244935A6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3773AE5A-9A2B-49B2-AC5A-2C183D7806AF} = {92FC8A0C-D902-48C1-84AA-B456D137CC2D}
+		{48A694DA-0D09-4D63-A276-3A244935A6E8} = {16B9EB0E-5E53-42FC-BBF3-47DF70807C73}
+	EndGlobalSection
+EndGlobal
